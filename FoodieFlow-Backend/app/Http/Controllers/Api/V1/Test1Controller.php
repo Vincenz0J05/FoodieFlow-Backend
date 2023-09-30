@@ -16,7 +16,7 @@ class Test1Controller extends Controller
      */
     public function index()
     {
-        
+        return Test1::all();
     }
 
     /**

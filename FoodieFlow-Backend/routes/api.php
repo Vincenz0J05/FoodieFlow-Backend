@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::prefix('v1')->group(function (){
-    Route::apiResourse('/Test1', TaskController::class);
+    Route::apiResource('/Test1', Test1Controller::class);
 });
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
